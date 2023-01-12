@@ -29,4 +29,4 @@ for i=1 :N % print results on screen
 marg = marginal_nodes(engine, i) ;
 BEL_Cdt=marg.T
 end
-engine = jtree_inf_engine(bnet);
+engine = jtree_inf_engine(bnet); 
